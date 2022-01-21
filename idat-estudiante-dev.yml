@@ -1,4 +1,8 @@
 spring:
   application:
     name: idat-estudiante
-  
+  jpa:
+    hibernate:
+      ddl-auto: create
+
+
