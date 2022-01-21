@@ -3,6 +3,4 @@ spring:
     name: idat-estudiante
   jpa:
     hibernate:
-      ddl-auto: create
-
-
+      ddl-auto: create-drop
