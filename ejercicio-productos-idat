@@ -1,0 +1,8 @@
+datasource:
+    url: jdbc:mysql://localhost:3306/ejercicios?serverTimezone=UTC
+    username: root
+    password: 48949427M
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create
