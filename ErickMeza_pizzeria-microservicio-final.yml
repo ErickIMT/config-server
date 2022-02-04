@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: ErickMeza_pizzeria-microservicio
+  datasource:
+    url: jdbc:mysql://localhost:3306/efinal
+    username: root
+    password: 48949427M
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
